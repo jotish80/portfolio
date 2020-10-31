@@ -1,5 +1,8 @@
 import React from "react";
 import me from "../../images/me.JPG";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import MailOutlineIcon from "@material-ui/icons/MailOutline";
 
 const MyInfo = () => {
   return (
@@ -27,6 +30,17 @@ const MyInfo = () => {
           professional development in the relevant field.
         </p>
         <p className="text-white">Email: sjotishchandra@gmail.com</p>
+        <a className="text-white" href="https://github.com/jotish80">
+          <GitHubIcon />
+        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a className="text-white" href="https://www.linkedin.com/feed/">
+          <LinkedInIcon />
+        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <a className="text-white" href="sjotishchandra@gmail.com">
+          <MailOutlineIcon />
+        </a>
       </div>
     </div>
   );

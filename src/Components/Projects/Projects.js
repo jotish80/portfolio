@@ -5,17 +5,22 @@ import volunteer from "../../images/volunteer.PNG";
 
 const Projects = () => {
   return (
-    <div style={{ height: "60vh" }} className="container mt-5 mb-5">
+    <div
+      id="projects"
+      style={{ height: "60vh" }}
+      className="container mt-5 mb-5"
+    >
       <h2 className="text-center   pt-5 mb-5">PROJECTS</h2>
       <div className="row">
         <div className="col-md-4">
           <div
             class="card"
-            style={{ width: "350px", height: "300px", borderRadius: "20px" }}
+            style={{ width: "350px", height: "350px", borderRadius: "20px" }}
           >
             <img src={creative} class="card-img-top" alt="..." />
             <div class="card-body">
               <p class="card-text">
+                <b>Create Agency</b> <br />
                 <b>Technologies</b>: HTML5, CSS3, Bootstrap, JavaScript, ES6,
                 ReactJS, React Router, Node.js, MongoDB, Netlify Heroku.
               </p>
@@ -41,11 +46,12 @@ const Projects = () => {
         <div className="col-md-4">
           <div
             class="card"
-            style={{ width: "350px", height: "300px", borderRadius: "20px" }}
+            style={{ width: "350px", height: "350px", borderRadius: "20px" }}
           >
             <img src={volunteer} class="card-img-top" alt="..." />
             <div class="card-body">
               <p class="card-text">
+                <b>volunteer Network</b> <br />
                 <b>Technologies</b>: HTML5, CSS3, Bootstrap, JavaScript, ES6,
                 ReactJS, React Router, Node.js, MongoDB, Netlify, Heroku.
               </p>
@@ -71,11 +77,12 @@ const Projects = () => {
         <div className="col-md-4">
           <div
             class="card"
-            style={{ width: "350px", height: "300px", borderRadius: "20px" }}
+            style={{ width: "350px", height: "350px", borderRadius: "20px" }}
           >
             <img src={travel} class="card-img-top" alt="..." />
             <div class="card-body">
               <p class="card-text">
+                <b>Travel Guru</b> <br />
                 <b>Technologies</b>: HTML5, CSS3, Material UI, JavaScript, ES6,
                 ReactJS, React Router, Firebase.
               </p>
