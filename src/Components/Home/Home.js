@@ -8,7 +8,7 @@ import Skills from "../Skills/Skills";
 
 const Home = () => {
   return (
-    <div style={{ backgroundColor: "#4E54C8", height: "100vh", width: "100%" }}>
+    <div>
       <Navbar />
       <MyInfo />
       <Skills />

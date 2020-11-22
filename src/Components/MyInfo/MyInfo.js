@@ -2,26 +2,23 @@ import React from "react";
 import me from "../../images/me.JPG";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import MailOutlineIcon from "@material-ui/icons/MailOutline";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import "./MyInfo.css";
 
 const MyInfo = () => {
   return (
-    <div style={{ height: "80vh" }} className="container-fluid">
-      <div className="mt-5 text-center">
+    <div class="context-style">
+      <div class="context">
         <img
-          className="ml-5"
+          className="ml-5  text-center"
           style={{ width: "20%", borderRadius: "20px " }}
           src={me}
           alt=""
         />
         <br />
-        <h3 className="pt-3 ml-5" style={{ color: "white" }}>
-          JOTISH CHANDRA SARKER
-        </h3>
-        <h5 className="ml-5" style={{ color: "white" }}>
-          Front-End Web Developer
-        </h5>
-        <p className="text-center text-white">
+        <h3 class="pt-3 ml-5 text-white text-center">JOTISH CHANDRA SARKER</h3>
+        <h5 class="ml-5 text-white text-center">Front-End Web Developer</h5>
+        <p class="text-center text-white">
           I count myself as a hardworking person. To pursue a challenging career
           in a <br /> competitive world where enthusiasm, honesty, hard work and
           passion will support me to
@@ -29,18 +26,33 @@ const MyInfo = () => {
           <br />
           professional development in the relevant field.
         </p>
-        <p className="text-white">Email: sjotishchandra@gmail.com</p>
-        <a className="text-white" href="https://github.com/jotish80">
+        <p class="text-white text-center">Email: sjotishchandra@gmail.com</p>
+        <a class="text-white" href="https://github.com/jotish80">
           <GitHubIcon />
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <a className="text-white" href="https://www.linkedin.com/feed/">
+        <a class="text-white" href="https://www.linkedin.com/feed/">
           <LinkedInIcon />
         </a>
         &nbsp;&nbsp;&nbsp;&nbsp;
-        <a className="text-white" href="sjotishchandra@gmail.com">
-          <MailOutlineIcon />
+        <a class="text-white" href="https://www.facebook.com/">
+          <FacebookIcon />
         </a>
+      </div>
+
+      <div class="area">
+        <ul class="circles">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
       </div>
     </div>
   );

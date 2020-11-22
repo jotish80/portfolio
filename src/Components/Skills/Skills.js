@@ -1,6 +1,28 @@
-import { Avatar } from "@material-ui/core";
 import React from "react";
-import me from "../../images/me.JPG";
+import "./Skills.css";
+import {
+  SiMaterialUi,
+  SiRedux,
+  SiMongodb,
+  SiJquery,
+  SiHeroku,
+  SiNetlify,
+  SiFirebase,
+  SiGooglechrome,
+} from "react-icons/si";
+
+import {
+  FaReact,
+  FaJs,
+  FaBootstrap,
+  FaHtml5,
+  FaCss3,
+  FaNodeJs,
+  FaGitSquare,
+  FaGithub,
+  FaNpm,
+  FaFigma,
+} from "react-icons/fa";
 
 const Skills = () => {
   return (
@@ -14,16 +36,52 @@ const Skills = () => {
           >
             COMFORTABLE
           </button>
-          <ul>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>React Router</li>
-            <li>ES6</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>SCSS</li>
-            <li>Bootstrap</li>
-            <li>HTML5</li>
+          <ul className="list-unstyled ">
+            <li>
+              <div class="d-flex">
+                <span
+                  style={{
+                    backgroundColor: "tomato",
+                    color: "white",
+                    fontSize: "25px",
+                    paddingLeft: "10",
+                  }}
+                >
+                  React
+                </span>
+                <div class="progress">
+                  <div
+                    class="progress-bar "
+                    role="progressbar"
+                    style={{ width: "80%" }}
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  ></div>
+                </div>
+              </div>
+            </li>{" "}
+            <br />
+            <li>
+              {" "}
+              <FaJs size="2em" style={{ color: "purple" }} />
+            </li>
+            <br />
+            <li>
+              <SiMaterialUi size="2em" style={{ color: "purple" }} />
+            </li>
+            <br />
+            <li>
+              <FaBootstrap size="2em" style={{ color: "purple" }} />
+            </li>
+            <br />
+            <li>
+              <FaHtml5 size="2em" style={{ color: "purple" }} />
+            </li>
+            <br />
+            <li>
+              <FaCss3 size="2em" style={{ color: "purple" }} />
+            </li>
           </ul>
         </div>
         <div style={{ paddingRight: "100px" }} className="">
@@ -33,16 +91,31 @@ const Skills = () => {
           >
             FAMILIAR
           </button>
-          <ul>
-            <li>Redux</li>
-            <li>Node.js</li>
+          <ul className="list-unstyled">
+            <li>
+              {" "}
+              <SiRedux size="2em" style={{ color: "purple" }} />
+            </li>
+            <li>
+              <FaNodeJs size="2em" style={{ color: "purple" }} />
+            </li>
             <li>Express.js</li>
-            <li>MongoDB</li>
-            <li>JQuery</li>
-            <li>Material-UI</li>
-            <li>Heroku</li>
-            <li>Netlify</li>
-            <li>Firebase</li>
+            <li>
+              <SiMongodb size="2em" style={{ color: "purple" }} />
+            </li>
+            <li>
+              <SiJquery size="2em" style={{ color: "purple" }} />
+            </li>
+
+            <li>
+              <SiHeroku size="2em" style={{ color: "purple" }} />
+            </li>
+            <li>
+              <SiNetlify size="2em" style={{ color: "purple" }} />
+            </li>
+            <li>
+              <SiFirebase size="2em" style={{ color: "purple" }} />
+            </li>
           </ul>
         </div>
         <div style={{ paddingRight: "100px" }} className="">
@@ -52,14 +125,23 @@ const Skills = () => {
           >
             TOOLS
           </button>
-          <ul>
-            <li>Git</li>
-            <li>GitHub</li>
+          <ul className="list-unstyled">
+            <li>
+              <FaGitSquare size="2em" style={{ color: "purple" }} />
+            </li>
+            <li>
+              <FaGithub size="2em" style={{ color: "purple" }} />
+            </li>
+
             <li>Visual Studio Code</li>
-            <li>NPM</li>
-            <li>chrome</li>
+            <FaNpm size="2em" style={{ color: "purple" }} />
+            <li>
+              <SiGooglechrome size="2em" style={{ color: "purple" }} />
+            </li>
             <li>Dev Tools</li>
-            <li>Figma</li>
+            <li>
+              <FaFigma size="2em" style={{ color: "purple" }} />
+            </li>
           </ul>
         </div>
       </div>

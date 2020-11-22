@@ -24,7 +24,10 @@ const Projects = () => {
                 <b>Technologies</b>: HTML5, CSS3, Bootstrap, JavaScript, ES6,
                 ReactJS, React Router, Node.js, MongoDB, Netlify Heroku.
               </p>
-              <a href="https://github.com/jotish80/creative-agency-client">
+              <a
+                href="https://github.com/jotish80/creative-agency-client"
+                target="_blank"
+              >
                 <button
                   class="btn btn-dark"
                   style={{ width: "134px", height: "45px" }}
@@ -32,7 +35,10 @@ const Projects = () => {
                   GitHub
                 </button>
               </a>
-              <a href="https://flamboyant-chandrasekhar-fe1bc1.netlify.app/">
+              <a
+                href="https://flamboyant-chandrasekhar-fe1bc1.netlify.app/"
+                target="_blank"
+              >
                 <button
                   class="btn btn-dark ml-3"
                   style={{ width: "134px", height: "45px" }}
@@ -55,7 +61,10 @@ const Projects = () => {
                 <b>Technologies</b>: HTML5, CSS3, Bootstrap, JavaScript, ES6,
                 ReactJS, React Router, Node.js, MongoDB, Netlify, Heroku.
               </p>
-              <a href="https://github.com/jotish80/volunteer-network-client">
+              <a
+                href="https://github.com/jotish80/volunteer-network-client"
+                target="_blank"
+              >
                 <button
                   class="btn btn-dark"
                   style={{ width: "134px", height: "45px" }}
@@ -63,7 +72,10 @@ const Projects = () => {
                   GitHub
                 </button>
               </a>
-              <a href="https://zealous-banach-d8b024.netlify.app/">
+              <a
+                href="https://zealous-banach-d8b024.netlify.app/"
+                target="_blank"
+              >
                 <button
                   class="btn btn-dark ml-3"
                   style={{ width: "134px", height: "45px" }}
@@ -86,7 +98,7 @@ const Projects = () => {
                 <b>Technologies</b>: HTML5, CSS3, Material UI, JavaScript, ES6,
                 ReactJS, React Router, Firebase.
               </p>
-              <a href="https://github.com/jotish80/travel-guru">
+              <a href="https://github.com/jotish80/travel-guru" target="_blank">
                 <button
                   class="btn btn-dark"
                   style={{ width: "134px", height: "45px" }}
