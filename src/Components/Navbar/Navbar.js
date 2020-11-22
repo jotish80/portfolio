@@ -7,7 +7,7 @@ const Navbar = () => {
         class="navbar navbar-expand-md navbar-light"
         style={{ zIndex: "99999999" }}
       >
-        <div class="container text-uppercase">
+        <div class="container text-uppercase mt-3">
           <a class="navbar-brand font-weight-bold text-white" href="#me">
             JOTISH
           </a>

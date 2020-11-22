@@ -14,7 +14,15 @@ const Projects = () => {
 
       <hr className="about-header" />
       <div className="row mt-5">
-        <div className="col-md-4">
+        <div
+          style={{
+            border: "1px solid",
+            padding: "10px",
+            boxShadow: "5px 5px #888888",
+            borderRadius: "20px",
+          }}
+          className="col-md-4 style"
+        >
           <div
             class="card"
             style={{ width: "350px", height: "350px", borderRadius: "20px" }}
@@ -51,7 +59,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 style">
           <div
             class="card"
             style={{ width: "350px", height: "350px", borderRadius: "20px" }}
@@ -88,7 +96,15 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div
+          style={{
+            border: "1px solid",
+            padding: "10px",
+            boxShadow: "5px 5px #888888",
+            borderRadius: "20px",
+          }}
+          className="col-md-4 style"
+        >
           <div
             class="card"
             style={{ width: "350px", height: "350px", borderRadius: "20px" }}

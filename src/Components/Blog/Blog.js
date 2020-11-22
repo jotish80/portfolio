@@ -2,6 +2,7 @@ import React from "react";
 import interview from "../../images/Interview-questions.png";
 import ecma from "../../images/EcmaScriptPNG.PNG";
 import react from "../../images/React-fundamental.png";
+import "./Blog.css";
 
 const Blog = () => {
   return (
@@ -14,7 +15,15 @@ const Blog = () => {
 
       <hr className="about-header" />
       <div className="row mt-5">
-        <div className="col-md-4">
+        <div
+          style={{
+            border: "1px solid",
+            padding: "10px",
+            boxShadow: "5px 5px #888888",
+            borderRadius: "20px",
+          }}
+          className="col-md-4 style"
+        >
           <div
             class="card"
             style={{ width: "350px", height: "350px", borderRadius: "20px" }}
@@ -38,7 +47,7 @@ const Blog = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div className="col-md-4 style">
           <div
             class="card"
             style={{ width: "350px", height: "350px", borderRadius: "20px" }}
@@ -63,7 +72,15 @@ const Blog = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4">
+        <div
+          style={{
+            border: "1px solid",
+            padding: "10px",
+            boxShadow: "5px 5px #888888",
+            borderRadius: "20px",
+          }}
+          className="col-md-4 style"
+        >
           <div
             class="card"
             style={{ width: "350px", height: "350px", borderRadius: "20px" }}
