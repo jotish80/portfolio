@@ -3,8 +3,11 @@ import React from "react";
 const Navbar = () => {
   return (
     <div class="" style={{ backgroundColor: "#4E54C8" }}>
-      <nav class="navbar navbar-expand-md navbar-light">
-        <div class="container text-uppercase p-2">
+      <nav
+        class="navbar navbar-expand-md navbar-light"
+        style={{ zIndex: "99999999" }}
+      >
+        <div class="container text-uppercase">
           <a class="navbar-brand font-weight-bold text-white" href="#me">
             JOTISH
           </a>
@@ -42,7 +45,7 @@ const Navbar = () => {
                   Contact Me
                 </a>
               </li>
-              <li class="header-buttons">
+              <li class="header-buttons ml-3">
                 <a href="https://drive.google.com/file/d/1Tud0J8jD-KE1ZVaWDBtVaC5TfAN9kISs/view?usp=sharing">
                   <button class="btn btn-outline-light">Download CV</button>
                 </a>

@@ -1,53 +1,167 @@
 import React from "react";
 import "./Skills.css";
-import {
-  SiMaterialUi,
-  SiRedux,
-  SiMongodb,
-  SiJquery,
-  SiHeroku,
-  SiNetlify,
-  SiFirebase,
-  SiGooglechrome,
-} from "react-icons/si";
-
-import {
-  FaReact,
-  FaJs,
-  FaBootstrap,
-  FaHtml5,
-  FaCss3,
-  FaNodeJs,
-  FaGitSquare,
-  FaGithub,
-  FaNpm,
-  FaFigma,
-} from "react-icons/fa";
 
 const Skills = () => {
   return (
     <div className="container text-center mt-5">
-      <h4 className="text-center mb-3 pt-5">SKILLS</h4>
+      <h3 className="text-center mb-4 pt-5">SKILLS</h3>
+      <br />
+
+      <hr className="about-header" />
       <div className="d-flex p-5">
         <div style={{ paddingRight: "100px" }} className=" ">
-          <button
-            class="btn btn-dark"
-            style={{ width: "134px", height: "45px" }}
-          >
-            COMFORTABLE
-          </button>
           <ul className="list-unstyled ">
+            <li>
+              {" "}
+              <div class="d-flex">
+                <span
+                  style={{
+                    backgroundColor: "#00A1A7",
+                    color: "white",
+                    fontSize: "20px",
+                    paddingLeft: "10px",
+                  }}
+                >
+                  HTML
+                </span>
+                <div class="progress">
+                  <div
+                    class="progress-bar "
+                    role="progressbar"
+                    style={{ width: "85%" }}
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    <span style={{ fontSize: "20px" }}>85%</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <br />
             <li>
               <div class="d-flex">
                 <span
                   style={{
-                    backgroundColor: "tomato",
+                    backgroundColor: "#00A1A7",
                     color: "white",
-                    fontSize: "25px",
-                    paddingLeft: "10",
+                    fontSize: "20px",
+                    paddingLeft: "10px",
+                  }}
+                >
+                  CSS
+                </span>
+                <div class="progress">
+                  <div
+                    class="progress-bar "
+                    role="progressbar"
+                    style={{ width: "70%" }}
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    {" "}
+                    <span style={{ fontSize: "20px" }}>70%</span>
+                  </div>
+                </div>
+              </div>{" "}
+            </li>
+            <br />
+            <li>
+              <div class="d-flex">
+                <span
+                  style={{
+                    backgroundColor: "#00A1A7",
+                    color: "white",
+                    fontSize: "20px",
+                    paddingLeft: "10px",
+                  }}
+                >
+                  JavaScript
+                </span>
+                <div class="progress">
+                  <div
+                    class="progress-bar "
+                    role="progressbar"
+                    style={{ width: "60%" }}
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    {" "}
+                    <span style={{ fontSize: "20px" }}>60%</span>
+                  </div>
+                </div>
+              </div>{" "}
+            </li>
+            <br />
+            <li>
+              <div class="d-flex">
+                <span
+                  style={{
+                    backgroundColor: "#00A1A7",
+                    color: "white",
+                    fontSize: "20px",
+                    paddingLeft: "10px",
                   }}
                 >
                   React
+                </span>
+                <div class="progress">
+                  <div
+                    class="progress-bar "
+                    role="progressbar"
+                    style={{ width: "70%" }}
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    {" "}
+                    <span style={{ fontSize: "20px" }}>70%</span>
+                  </div>
+                </div>
+              </div>{" "}
+            </li>
+            <br />
+            <li>
+              <div class="d-flex">
+                <span
+                  style={{
+                    backgroundColor: "#00A1A7",
+                    color: "white",
+                    fontSize: "20px",
+                    paddingLeft: "10px",
+                  }}
+                >
+                  Node.js
+                </span>
+                <div class="progress">
+                  <div
+                    class="progress-bar "
+                    role="progressbar"
+                    style={{ width: "55%" }}
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    {" "}
+                    <span style={{ fontSize: "20px" }}>55%</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <br />
+            <li>
+              <div class="d-flex">
+                <span
+                  style={{
+                    backgroundColor: "#00A1A7",
+                    color: "white",
+                    fontSize: "20px",
+                    paddingLeft: "10px",
+                  }}
+                >
+                  Bootstrap
                 </span>
                 <div class="progress">
                   <div
@@ -57,90 +171,97 @@ const Skills = () => {
                     aria-valuenow="100"
                     aria-valuemin="0"
                     aria-valuemax="100"
-                  ></div>
+                  >
+                    {" "}
+                    <span style={{ fontSize: "20px" }}>80%</span>
+                  </div>
+                </div>
+              </div>{" "}
+            </li>
+            <br />
+            <li>
+              {" "}
+              <div class="d-flex">
+                <span
+                  style={{
+                    backgroundColor: "#00A1A7",
+                    color: "white",
+                    fontSize: "20px",
+                    paddingLeft: "10px",
+                  }}
+                >
+                  UI Design
+                </span>
+                <div class="progress">
+                  <div
+                    class="progress-bar "
+                    role="progressbar"
+                    style={{ width: "60%" }}
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    {" "}
+                    <span style={{ fontSize: "20px" }}>60%</span>
+                  </div>
                 </div>
               </div>
-            </li>{" "}
-            <br />
-            <li>
-              {" "}
-              <FaJs size="2em" style={{ color: "purple" }} />
             </li>
             <br />
             <li>
-              <SiMaterialUi size="2em" style={{ color: "purple" }} />
+              <div class="d-flex">
+                <span
+                  style={{
+                    backgroundColor: "#00A1A7",
+                    color: "white",
+                    fontSize: "20px",
+                    paddingLeft: "10px",
+                  }}
+                >
+                  MongoDB
+                </span>
+                <div class="progress">
+                  <div
+                    class="progress-bar "
+                    role="progressbar"
+                    style={{ width: "45%" }}
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    {" "}
+                    <span style={{ fontSize: "20px" }}>45%</span>
+                  </div>
+                </div>
+              </div>{" "}
             </li>
             <br />
             <li>
-              <FaBootstrap size="2em" style={{ color: "purple" }} />
-            </li>
-            <br />
-            <li>
-              <FaHtml5 size="2em" style={{ color: "purple" }} />
-            </li>
-            <br />
-            <li>
-              <FaCss3 size="2em" style={{ color: "purple" }} />
-            </li>
-          </ul>
-        </div>
-        <div style={{ paddingRight: "100px" }} className="">
-          <button
-            class="btn btn-dark"
-            style={{ width: "134px", height: "45px" }}
-          >
-            FAMILIAR
-          </button>
-          <ul className="list-unstyled">
-            <li>
-              {" "}
-              <SiRedux size="2em" style={{ color: "purple" }} />
-            </li>
-            <li>
-              <FaNodeJs size="2em" style={{ color: "purple" }} />
-            </li>
-            <li>Express.js</li>
-            <li>
-              <SiMongodb size="2em" style={{ color: "purple" }} />
-            </li>
-            <li>
-              <SiJquery size="2em" style={{ color: "purple" }} />
-            </li>
-
-            <li>
-              <SiHeroku size="2em" style={{ color: "purple" }} />
-            </li>
-            <li>
-              <SiNetlify size="2em" style={{ color: "purple" }} />
-            </li>
-            <li>
-              <SiFirebase size="2em" style={{ color: "purple" }} />
-            </li>
-          </ul>
-        </div>
-        <div style={{ paddingRight: "100px" }} className="">
-          <button
-            class="btn btn-dark"
-            style={{ width: "134px", height: "45px" }}
-          >
-            TOOLS
-          </button>
-          <ul className="list-unstyled">
-            <li>
-              <FaGitSquare size="2em" style={{ color: "purple" }} />
-            </li>
-            <li>
-              <FaGithub size="2em" style={{ color: "purple" }} />
-            </li>
-
-            <li>Visual Studio Code</li>
-            <FaNpm size="2em" style={{ color: "purple" }} />
-            <li>
-              <SiGooglechrome size="2em" style={{ color: "purple" }} />
-            </li>
-            <li>Dev Tools</li>
-            <li>
-              <FaFigma size="2em" style={{ color: "purple" }} />
+              <div class="d-flex">
+                <span
+                  style={{
+                    backgroundColor: "#00A1A7",
+                    color: "white",
+                    fontSize: "20px",
+                    paddingLeft: "10px",
+                  }}
+                >
+                  Express.js
+                </span>
+                <div class="progress">
+                  <div
+                    class="progress-bar "
+                    role="progressbar"
+                    style={{ width: "40%" }}
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                  >
+                    {" "}
+                    <span style={{ fontSize: "20px" }}>40%</span>
+                  </div>
+                </div>
+              </div>{" "}
             </li>
           </ul>
         </div>

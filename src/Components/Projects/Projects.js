@@ -11,7 +11,9 @@ const Projects = () => {
       className="container mt-5 mb-5"
     >
       <h2 className="text-center   pt-5 mb-5">PROJECTS</h2>
-      <div className="row">
+
+      <hr className="about-header" />
+      <div className="row mt-5">
         <div className="col-md-4">
           <div
             class="card"

@@ -13,6 +13,7 @@
   width: 100%;
   position: absolute;
   top: 50vh;
+  z-index: 99999999;
 }
 
 .context h1 {
