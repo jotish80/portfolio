@@ -36,7 +36,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link text-white" href="#blogs">
+                <a class="nav-link text-white" href="#Blog">
                   Blogs
                 </a>
               </li>
@@ -46,7 +46,7 @@ const Navbar = () => {
                 </a>
               </li>
               <li class="header-buttons ml-3">
-                <a href="https://drive.google.com/file/d/1Tud0J8jD-KE1ZVaWDBtVaC5TfAN9kISs/view?usp=sharing">
+                <a href="https://drive.google.com/file/d/13J6Uy0-ChshTKK6vF0Pr_kf-c1qBP0R8/view?usp=sharing">
                   <button class="btn btn-outline-light">Download CV</button>
                 </a>
               </li>

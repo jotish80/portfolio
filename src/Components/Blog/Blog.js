@@ -8,13 +8,13 @@ const Blog = () => {
   return (
     <div
       id="projects"
-      style={{ height: "60vh" }}
+      
       className="container mt-5 mb-5"
     >
       <h2 className="text-center   pt-5 mb-5">BLOGS</h2>
 
       <hr className="about-header" />
-      <div className="row mt-5">
+      <div className="row mt-5 g-5">
         <div
           style={{
             border: "1px solid",

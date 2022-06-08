@@ -5,32 +5,25 @@ import volunteer from "../../images/volunteer.PNG";
 
 const Projects = () => {
   return (
-    <div
-      id="projects"
-      style={{ height: "60vh" }}
-      className="container mt-5 mb-5"
-    >
-      <h2 className="text-center   pt-5 mb-5">PROJECTS</h2>
-
+    <div id="projects" className="container mt-5 mb-5">
+      <h2 className="text-center pt-5 mb-5">PROJECTS</h2>
       <hr className="about-header" />
-      <div className="row mt-5">
-        <div
-          style={{
+      <div className="row mt-5 d-flex justify-content-between align-items-center">
+        <div style={{
             border: "1px solid",
             padding: "10px",
             boxShadow: "5px 5px #888888",
             borderRadius: "20px",
           }}
-          className="col-md-4 style"
+          className="col-md-4 col-sm-1 style"
         >
-          <div
-            class="card"
+          <div class="card"
             style={{ width: "350px", height: "350px", borderRadius: "20px" }}
           >
             <img src={creative} class="card-img-top" alt="..." />
             <div class="card-body">
               <p class="card-text">
-                <b>Create Agency</b> <br />
+                <b>Creative Agency</b> <br />
                 <b>Technologies</b>: HTML5, CSS3, Bootstrap, JavaScript, ES6,
                 ReactJS, React Router, Node.js, MongoDB, Netlify Heroku.
               </p>
@@ -59,7 +52,7 @@ const Projects = () => {
             </div>
           </div>
         </div>
-        <div className="col-md-4 style">
+        <div className="col-md-4 col-sm-1 style">
           <div
             class="card"
             style={{ width: "350px", height: "350px", borderRadius: "20px" }}
@@ -103,7 +96,7 @@ const Projects = () => {
             boxShadow: "5px 5px #888888",
             borderRadius: "20px",
           }}
-          className="col-md-4 style"
+          className="col-md-4 col-sm-1 style"
         >
           <div
             class="card"

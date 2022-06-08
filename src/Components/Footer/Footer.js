@@ -12,9 +12,11 @@ const Footer = () => {
         <form
           action="https://formspree.io/f/xnqovvao"
           method="POST"
-          style={{ width: "450px", alignItems: "center", marginLeft: "600px" }}
+          // style={{ width: "450px", alignItems: "center", marginLeft: "600px" }}
+          className="container w-50"
         >
-          <div class="form-group">
+          <div className="column">
+            <div class="form-group col align-self-center ">
             <input
               type="text"
               name="name"
@@ -22,7 +24,7 @@ const Footer = () => {
               placeholder="Your Name"
             />
           </div>
-          <div class="form-group">
+          <div class="form-group col align-self-center">
             <input
               name="email"
               type="email"
@@ -33,7 +35,7 @@ const Footer = () => {
             />
           </div>
 
-          <div class="form-group">
+          <div class="form-group col align-self-center">
             <textarea
               name="message"
               class="message form-control"
@@ -41,6 +43,7 @@ const Footer = () => {
               rows="3"
               placeholder="Your Message"
             ></textarea>
+          </div>
           </div>
           <button
             type="submit"
@@ -50,6 +53,7 @@ const Footer = () => {
             Send Message
           </button>
         </form>
+         
       </div>
       <div className="copyRight text-center mt-5 text-white">
         <p>Copyright {new Date().getFullYear()} All Rights Reserved</p>

@@ -3,8 +3,11 @@ import "./Skills.css";
 
 const Skills = () => {
   return (
-    <div className="container text-center mt-5">
-      <h3 className="text-center mb-4 pt-5">SKILLS</h3>
+    <>
+      <h3 className="text-center mt-5">SKILLS</h3>
+      <hr className="about-header mt-2" />
+    <div className="container text-center w-50 col-sm-1 d-flex justify-content-center align-items-center">
+      
       <br />
 
       <hr className="about-header" />
@@ -267,6 +270,7 @@ const Skills = () => {
         </div>
       </div>
     </div>
+    </>
   );
 };
 
