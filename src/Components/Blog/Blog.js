@@ -7,7 +7,7 @@ import "./Blog.css";
 const Blog = () => {
   return (
     <div
-      id="projects"
+      id="blogs"
       
       className="container mt-5 mb-5"
     >

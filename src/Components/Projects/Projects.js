@@ -1,14 +1,14 @@
 import React from "react";
 import creative from "../../images/creative-agency.PNG";
-import travel from "../../images/travel.PNG";
-import volunteer from "../../images/volunteer.PNG";
+import fruits from "../../images/fruits.PNG";
+import tools from "../../images/tools.PNG";
 
 const Projects = () => {
   return (
     <div id="projects" className="container mt-5 mb-5">
       <h2 className="text-center pt-5 mb-5">PROJECTS</h2>
       <hr className="about-header" />
-      <div className="row mt-5 d-flex justify-content-between align-items-center">
+      <div className="row mt-5 g-5 d-flex justify-content-around align-items-center">
         <div style={{
             border: "1px solid",
             padding: "10px",
@@ -20,7 +20,7 @@ const Projects = () => {
           <div class="card"
             style={{ width: "350px", height: "350px", borderRadius: "20px" }}
           >
-            <img src={creative} class="card-img-top" alt="..." />
+            <img src={creative} class="card-img-top" alt="..."  />
             <div class="card-body">
               <p class="card-text">
                 <b>Creative Agency</b> <br />
@@ -57,15 +57,15 @@ const Projects = () => {
             class="card"
             style={{ width: "350px", height: "350px", borderRadius: "20px" }}
           >
-            <img src={volunteer} class="card-img-top" alt="..." />
+            <img src={fruits} class="card-img-top" alt="..." style={{ width:'340px'}}/>
             <div class="card-body">
               <p class="card-text">
-                <b>volunteer Network</b> <br />
+                <b>Organic Fruits Warehouse</b> <br />
                 <b>Technologies</b>: HTML5, CSS3, Bootstrap, JavaScript, ES6,
-                ReactJS, React Router, Node.js, MongoDB, Netlify, Heroku.
+                ReactJS, React Router, Node.js, MongoDB, Firebase, Heroku.
               </p>
               <a
-                href="https://github.com/jotish80/volunteer-network-client"
+                href="https://github.com/jotish80/organic-fruits-warehouse-client"
                 target="_blank"
               >
                 <button
@@ -76,7 +76,7 @@ const Projects = () => {
                 </button>
               </a>
               <a
-                href="https://zealous-banach-d8b024.netlify.app/"
+                href="https://organic-fruits-warehouse.web.app/"
                 target="_blank"
               >
                 <button
@@ -102,14 +102,14 @@ const Projects = () => {
             class="card"
             style={{ width: "350px", height: "350px", borderRadius: "20px" }}
           >
-            <img src={travel} class="card-img-top" alt="..." />
+            <img src={tools} class="card-img-top" alt="..." />
             <div class="card-body">
               <p class="card-text">
-                <b>Travel Guru</b> <br />
-                <b>Technologies</b>: HTML5, CSS3, Material UI, JavaScript, ES6,
-                ReactJS, React Router, Firebase.
+                <b>Quality Parts</b> <br />
+                <b>Technologies</b>: HTML5, CSS3, DaisyUI, JavaScript, ES6,
+                ReactJS, React Router, Firebase, Heroku, MongoDB, Mongoose.
               </p>
-              <a href="https://github.com/jotish80/travel-guru" target="_blank">
+              <a href="https://github.com/jotish80/car-parts-manufacturer" target="_blank">
                 <button
                   class="btn btn-dark"
                   style={{ width: "134px", height: "45px" }}
@@ -117,7 +117,7 @@ const Projects = () => {
                   GitHub
                 </button>
               </a>
-              <a href="https://travel-guru-b8851.firebaseapp.com/">
+              <a href="https://car-parts-manufacture-12ec1.firebaseapp.com/" target="_blank">
                 <button
                   class="btn btn-dark ml-3"
                   style={{ width: "134px", height: "45px" }}
